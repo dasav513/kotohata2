@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Котохата — притулок для тварин, Київ</title>
+<meta name="description" content="Офіційний сайт притулку "Котохата" у м. Київ — каталог тварин, як допомогти, контакти.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="container header-inner">
+<div class="brand">
+<div class="logo" aria-hidden="true">🐾</div>
+<div>
+<h1>Котохата</h1>
+<p class="tag">Притулок для тварин — Київ</p>
+</div>
+</div>
+<nav class="nav">
+<a href="#home">Головна</a>
+<a href="#animals">Тварини</a>
+<a href="#help">Як допомогти</a>
+<a href="#about">Про нас</a>
+<a href="#contacts">Контакти</a>
+</nav>
+</div>
+</header>
+
+
+<main>
+<section id="home" class="hero container">
+<h2>Знайди друга. Врятуй життя.</h2>
+<p>Котохата — притулок у Києві, де кожна тварина отримує шанс на дім. Дивись каталог, знайомся з історіями та дізнавайся, як допомогти.</p>
+<p class="hero-cta">
+<a class="btn" href="#animals">Переглянути тварин</a>
+<a class="btn ghost" href="#help">Як допомогти</a>
+</p>
+</section>
+
+
+<section id="animals" class="container section">
+<h3>Тварини, що шукають дім</h3>
+<p class="lead">Нижче — кілька прикладів. Клікни на картку, щоб побачити деталі.</p>
+<div class="grid" id="animals-list">
+<!-- Карточки тварин (прикладні дані) -->
+<article class="card" data-name="Мурчик" data-age="2 роки" data-sex="Кіт" data-desc="Дружній, привчений до лотка, любить людей." data-img="https://placekitten.com/400/300">
+<img alt="Мурчик" src="https://placekitten.com/400/300">
+<div class="card-body">
+<h4>Мурчик</h4>
+<p class="meta">2 роки • Кіт</p>
+<button class="btn small" onclick="openModal(this.closest('.card'))">Деталі</button>
+</div>
+</article>
+
+
+<article class="card" data-name="Рудик" data-age="1 рік" data-sex="Кіт" data-desc="Активний, грайливий, потребує дому з простором для ігор." data-img="https://placekitten.com/401/300">
+<img alt="Рудик" src="https://placekitten.com/401/300">
+<div class="card-body">
+<h4>Рудик</h4>
+<p class="meta">1 рік • Кіт</p>
+<button class="btn small" onclick="openModal(this.closest('.card'))">Деталі</button>
+</div>
+</article>
+
+
+<article class="card" data-name="Соня" data-age="3 роки" data-sex="Кішка" data-desc="Тиха та лагідна, ідеальна для сім'ї." data-img="https://placekitten.com/402/300">
+<img alt="Соня" src="https://placekitten.com/402/300">
+<div class="card-body">
+<h4>Соня</h4>
+<p class="meta">3 роки • Кішка</p>
+<button class="btn small" onclick="openModal(this.closest('.card'))">Деталі</button>
+</div>
+</article>
+
+
+</div>
+</section>
+
+
+<section id="help" class="container section">
+<h3>Як допомогти</h3>
+<div class="split">
+<div>
+<h4>Пожертвувати</h4>
+<p>Поширені способи: банківський переказ, Monobank, PayPal. Якщо хочеш — додай повідомлення у платіж.</p>
+<ul>
+<li>Monobank: <strong>&lt;номер_рахунку_тут&gt;</strong></li>
+</html>
